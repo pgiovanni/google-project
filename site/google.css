@@ -1,1 +1,68 @@
-/* fill in styles here */
+html {
+    height: 100%
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+    min-width: 900px;
+    max-height: 100%;
+}
+
+
+
+#content {
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 80%;
+   
+}
+
+#logo {
+    display: block;
+    width: 100%;
+}
+
+#logoImg {
+    display: block;
+    margin: 0 auto;
+}
+
+
+#searchBarDiv {
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#searchBar {
+    border-color: none;
+    border-width: 0;
+    border: 0 properties;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+#content > div:hover {
+    box-shadow: inset;
+}
+
+textarea:focus, input:focus {
+   outline: none;
+}
+
+#buttonSpan {
+    display: block;
+    margin-top: 10%;
+    margin: 0 auto;
+    width: 20%;
+}
