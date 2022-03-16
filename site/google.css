@@ -7,9 +7,9 @@ body {
     overflow: hidden;
     min-width: 900px;
     max-height: 100%;
+    font-family: arial, sans-serif;
+    width: 100%;
 }
-
-
 
 #content {
     position: absolute;
@@ -20,8 +20,7 @@ body {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    width: 80%;
-   
+    width: 100%;   
 }
 
 #logo {
@@ -33,7 +32,6 @@ body {
     display: block;
     margin: 0 auto;
 }
-
 
 #searchBarDiv {
     border-radius: 25px;
@@ -50,10 +48,32 @@ body {
     width: 90%;
     margin: 0 auto;
     display: block;
+    font-size: 16px;
+}
+.hoverClass:hover {
+    box-shadow: 5px 5px 5px 5px lightgray;
 }
 
-#content > div:hover {
-    box-shadow: inset;
+#search {
+    margin-left: 10%;
+    margin-right: 5%;
+    background-color: #f8f9fa;
+    height: 10%;
+}
+
+#feelingLucky {
+    background-color: #f8f9fa;
+}
+
+.searchButtons {
+    padding: 3%;
+    border-color: transparent;
+}
+
+.searchButtons:hover {
+    cursor: pointer;
+    border-color: lightgray;
+    border-radius: 11px;
 }
 
 textarea:focus, input:focus {
@@ -61,8 +81,45 @@ textarea:focus, input:focus {
 }
 
 #buttonSpan {
+    height: 20%;
     display: block;
-    margin-top: 10%;
+    padding: 2%;
     margin: 0 auto;
     width: 20%;
+    min-width: 357px;
+}
+
+#footer {
+    display: flex;
+    position:absolute;
+    width:100%;
+    bottom:0px;
+    color: #70757a;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 36px;
+    background: lightgrey;
+    min-width: 1641px;
+}
+
+.bottomLink:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.linkSpan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: .7%;
+    font-size: 14px;
+    width: 10%;
+}
+
+#leftSideLinks {
+    display: flex;
+    width: 15%;
+    margin-right: 71%;
+    margin-left: 1%;
 }
