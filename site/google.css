@@ -8,7 +8,7 @@ body {
     min-width: 900px;
     max-height: 100%;
     font-family: arial, sans-serif;
-    width: 99%;
+    width: 100%;
 }
 
 #content {
@@ -80,7 +80,7 @@ textarea:focus, input:focus {
    outline: none;
 }
 
-#buttonSpan {
+#button-wrapper{
     height: 20%;
     display: block;
     padding: 2%;
@@ -117,7 +117,7 @@ textarea:focus, input:focus {
     width: 10%;
 }
 
-#leftSideLinks {
+#left {
     display: flex;
     width: 15%;
     margin-right: 71%;
